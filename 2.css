@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+.navbar{
+    background-color: #fff;
+    margin: 0px;
+    padding: 20px;
+    position:fixed;
+    display: inline-flex;
+    height: 40px;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar ul{
+    float: right;
+    margin-left: 180px;
+    margin-top:1px;
+    font-family: 'Arial' ;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+}
+.navbar li{
+    font-weight: 700px;
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+    margin: 7px;
+}
+
+.navbar img{
+    width:111px;
+    height:37px;
+    margin: 10px;
+}
+
+.navbar a{
+    color: #000;
+    text-decoration: none;
+}
+.navbar a:hover{
+    text-decoration: underline;
+    color: #fa7268;
+}
+
+.nav_icon{
+    margin-right:100px;
+    margin-left:auto;
+    padding: 15px;
+    letter-spacing:10px;
+    word-spacing: 10px;
+}
+
+
+.background_img{
+    background-image: url(music.jpg);
+    height:100vh;
+    background-size: cover;
+    background-position:center;
+    display: table;
+    width: 100%;
+}
+
+.inner_img{
+    display:table-cell;
+    text-align:center;
+    vertical-align:middle;
+}
+.inner_img h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-weight:bold;
+    color: rgb(255,255,255);
+    margin: 0px;
+    letter-spacing:3px;
+    line-height: 90px;
+
+}
+.inner_img h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-weight:bold;
+    color: rgb(255,255,255);
+    margin: 0px;
+    letter-spacing:3px;
+    line-height: 90px;
+}
+
+.inner_img p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color:#fff;
+}
+.lower{
+    display: inline-block;
+    text-decoration: none;
+
+    border: 5px whitesmoke;
+    border-radius:50px ;
+   
+    padding: 12px 34px;
+    cursor:pointer;
+}
+    
+.lower ul{
+	list-style: none;
+    margin-left: -100px;
+    margin-top:1px;
+    font-family: 'Arial' ;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    color: whitesmoke;
+   
+    
+}
+.lower ul li{
+
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+    margin: 7px;
+    color: whitesmoke;
+    border-radius:50px ;
+
+
+}
+
+.lower ul li:hover{
+    text-decoration:underline;
+    background: #e28982;
+   
+}
+
+
